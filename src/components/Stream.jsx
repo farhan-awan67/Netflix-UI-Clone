@@ -1,4 +1,5 @@
 import React from "react";
+import featureImg from "../assets/feature-1.png"
 
 const Stream = () => {
   return (
@@ -15,7 +16,7 @@ const Stream = () => {
         </div>
 
         <div className="tv lg:basis-[45%]">
-          {/* <img className="w-full" src={downImg} /> */}
+          <img className="w-full" src={featureImg} />
         </div>
       </div>
     </div>
